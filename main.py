@@ -65,7 +65,7 @@ def register_events(conn):
 
 
 # setup connection
-conn=libvirt.open("qemu:///system")
+conn = libvirt.open("qemu:///system")
 
 if conn == None:
     print('Failed to open connection to the hypervisor')
