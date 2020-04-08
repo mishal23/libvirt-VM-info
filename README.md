@@ -50,7 +50,7 @@ Detailed instructions on installation: [here](https://www.linuxtechi.com/install
 
 ## Steps to Run
 
-- Spin a VM to test the code, I installed Ubuntu18/04 without graphics, feel free to use any.
+- Spin a VM to test the code, I installed Ubuntu18.04 without graphics, feel free to use any.
 
 ```bash
 sudo virt-install \
