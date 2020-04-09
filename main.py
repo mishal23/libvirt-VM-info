@@ -21,6 +21,9 @@ libvirt.virEventRegisterDefaultImpl()
 def diplay_info(_conn, dom, event, _detail, _opaque):
     """
     displays the required information using the libvirt library
+    :param dom: domain object currently in use
+    :param event: the event triggered
+    :return: prints the information
     """
     if event in (libvirt.VIR_DOMAIN_EVENT_STARTED, libvirt.VIR_DOMAIN_EVENT_STOPPED):
         print("")
