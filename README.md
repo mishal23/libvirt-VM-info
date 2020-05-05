@@ -73,3 +73,7 @@ sudo virt-install \
 - sudo python main.py
 ```
 - On another terminal invoke any event for the VM and it'll display the information.
+
+### Acknowledgment
+
+Thanks to [@cbosdo](https://github.com/cbosdo/) & [@zippy2](https://github.com/zippy2) for giving their valuable feedback on the code.
